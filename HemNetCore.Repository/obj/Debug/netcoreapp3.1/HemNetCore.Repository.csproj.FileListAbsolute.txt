@@ -1,0 +1,16 @@
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.csprojAssemblyReference.cache
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.AssemblyInfoInputs.cache
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.AssemblyInfo.cs
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.csproj.CoreCompileInputs.cache
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Repository.deps.json
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Repository.dll
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Repository.pdb
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.csproj.CopyComplete
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.dll
+E:\项目\HemNetCore\HemNetCore.Repository\obj\Debug\netcoreapp3.1\HemNetCore.Repository.pdb
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Common.dll
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Common.pdb
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Model.dll
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Model.pdb
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\HemNetCore.Model.xml
+E:\项目\HemNetCore\HemNetCore.Repository\bin\Debug\netcoreapp3.1\System.Drawing.4.0.0.0.Fakes.dll

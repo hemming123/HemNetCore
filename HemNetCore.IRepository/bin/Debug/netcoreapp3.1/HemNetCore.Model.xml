@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HemNetCore.Model</name>
+    </assembly>
+    <members>
+        <member name="T:HemNetCore.Model.Enity.Kernel_Member">
+            <summary>
+            会员表
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.IsBlacklist">
+            <summary>
+            黑名单标志
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.SetBlacklistTime">
+            <summary>
+            设置黑名单时间
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.SetBlacklistReason">
+            <summary>
+            设置黑名单原因
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.RemoveBlacklistTime">
+            <summary>
+            移除黑名单人
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.RemoveBlacklistUserID">
+            <summary>
+            移除黑名单时间
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.RemoveBlacklistReason">
+            <summary>
+            移除黑名单原因
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.IsDebug">
+            <summary>
+            是否调试
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.StoreID">
+            <summary>
+            所属门店ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.VIPAffiliationTime">
+            <summary>
+            VIP归属时间
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Member.StockHolder">
+            <summary>
+            是否股东
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.Longitude">
+            <summary>
+            经度
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.Latitude">
+            <summary>
+            纬度
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.BusinessLicense">
+            <summary>
+            营业执照
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.PartnerContacter">
+            <summary>
+            法人
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.PartnerPhone">
+            <summary>
+            手机号
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.LicenseNumber">
+            <summary>
+            税号
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.RegisteredCapital">
+            <summary>
+            注册资本
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.LegalPerson">
+            <summary>
+            法人
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_Partner.Margin">
+            <summary>
+            保证金
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.Enity.Kernel_User">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.Kernel_User.ID">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.Enity.User">
+            <summary>
+            用户表
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.User.Id">
+            <summary>
+            id
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.User.Name">
+            <summary>
+            姓名
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.Enity.User.Age">
+            <summary>
+            年龄
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.Enum.EnumExtension">
+            <summary>
+            枚举属性扩展
+            </summary>
+        </member>
+        <member name="M:HemNetCore.Model.Enum.EnumExtension.GetDescription(System.Enum)">
+            <summary>
+            获取枚举中Description
+            </summary>
+            <param name="enumname"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.Model.Enum.EnumExtension.GetNameAndDescriptions(System.Type)">
+            <summary>
+            获取枚举名以及对应的Description
+            </summary>
+            <param name="type">枚举类型typeof(T)</param>
+            <returns>返回Dictionary  ,Key为枚举名，  Value为枚举对应的Description</returns>
+        </member>
+        <member name="M:HemNetCore.Model.Enum.EnumExtension.GetNameAndValue(System.Type)">
+            <summary>
+            获取枚举名以及对应的Value
+            </summary>
+            <param name="type">枚举类型typeof(T)</param>
+            <returns>返回Dictionary  ,Key为描述名，  Value为枚举对应的值</returns>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.Success">
+            <summary>
+            请求(或处理)成功
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.Error">
+            <summary>
+            内部请求出错
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.Unauthorized">
+            <summary>
+            访问请求未授权! 当前 SESSION 失效, 请重新登录
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.ParameterError">
+            <summary>
+            请求参数不完整或不正确
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.Forbidden">
+            <summary>
+            您无权进行此操作，请求执行已拒绝
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.NotFound">
+            <summary>
+            找不到与请求匹配的 HTTP 资源
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.HttpMehtodError">
+            <summary>
+            HTTP请求类型不合法
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.HttpRequestError">
+            <summary>
+            HTTP请求不合法,请求参数可能被篡改
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.StatusCode.URLExpireError">
+            <summary>
+            该URL已经失效
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.YesNoEnum.NO">
+            <summary>
+            否
+            </summary>
+        </member>
+        <member name="F:HemNetCore.Model.Enum.YesNoEnum.YES">
+            <summary>
+            是
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.ErrorModel">
+            <summary>
+            错误消息实体
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ErrorModel.code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ErrorModel.msg">
+            <summary>
+            错误消息
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ErrorModel.detail">
+            <summary>
+            错误详情
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ErrorModel.timestamp">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.PagedModel`1">
+            <summary>
+            通用分页信息类
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.PageIndex">
+            <summary>
+            当前页标
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.PageSize">
+            <summary>
+            每页大小
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.TotalPages">
+            <summary>
+            总页数
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.TotalCount">
+            <summary>
+            总条数
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.IsFirstPage">
+            <summary>
+            是否第一页
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.IsLastPage">
+            <summary>
+            是否最后一页
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.IsNextPage">
+            <summary>
+            是否有下一页
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.PagedModel`1.PageData">
+            <summary>
+            返回分页数据
+            </summary>
+        </member>
+        <member name="T:HemNetCore.Model.ResultModel`1">
+            <summary>
+            通用返回信息类
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ResultModel`1.Code">
+            <summary>
+            状态码
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ResultModel`1.Msg">
+            <summary>
+            返回消息
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ResultModel`1.Data">
+            <summary>
+            返回数据集合
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ResultModel`1.Timestamp">
+            <summary>
+            时间戳
+            </summary>
+        </member>
+        <member name="M:HemNetCore.Model.ResultModel`1.Ok(System.String)">
+            <summary>
+            返回成功
+            </summary>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.Model.ResultModel`1.Ok(`0,HemNetCore.Model.Enum.StatusCode,System.String)">
+             <summary>
+            返回成功
+             </summary>
+             <param name="data">数据</param>
+             <param name="httpCode">状态码</param>
+             <param name="msg">消息</param>
+             <returns></returns>
+        </member>
+        <member name="M:HemNetCore.Model.ResultModel`1.Fail(System.String)">
+            <summary>
+            返回失败
+            </summary>
+            <param name="msg">消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.Model.ResultModel`1.Fail(`0,HemNetCore.Model.Enum.StatusCode,System.String)">
+            <summary>
+            返回失败
+            </summary>
+            <param name="data">数据</param>
+            <param name="statusCode">状态码</param>
+            <param name="msg">消息</param>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.Model.ResultModel`1.Message(`0,System.Boolean,HemNetCore.Model.Enum.StatusCode,System.String)">
+            <summary>
+            返回消息
+            </summary>
+            <param name="success">失败/成功</param>
+            <param name="statusCode">状态码</param>
+            <param name="msg">消息</param>
+            <param name="data">数据</param>
+            <returns></returns>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.UserId">
+            <summary>
+            用户ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.RoleId">
+            <summary>
+            角色ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.PartnerId">
+            <summary>
+            分公司ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.StoreId">
+            <summary>
+            门店ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.OrganizationID">
+            <summary>
+            组织ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.UserName">
+            <summary>
+            用户姓名
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.IsEjz">
+            <summary>
+            是否E家政
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.Level">
+            <summary>
+            等级
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.IsAdministrator">
+            <summary>
+            是否管理员
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.MenuId">
+            <summary>
+            菜单ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.LoginName">
+            <summary>
+            登录手机号
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.Password">
+            <summary>
+            用户密码
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserSessionVModel.OperatorTime">
+            <summary>
+            最后更新时间
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserViewModel.UserId">
+            <summary>
+            ID
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserViewModel.UserName">
+            <summary>
+            用户名
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserViewModel.Phone">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:HemNetCore.Model.ViewModel.UserViewModel.Address">
+            <summary>
+            地址
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HemNetCore.Common\HemNetCore.Common.csproj" />
+    <ProjectReference Include="..\HemNetCore.IService\HemNetCore.IService.csproj" />
+    <ProjectReference Include="..\HemNetCore.Model\HemNetCore.Model.csproj" />
+    <ProjectReference Include="..\HemNetCore.Repository\HemNetCore.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

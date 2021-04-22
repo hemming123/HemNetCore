@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31025.194
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HemNetCore.WebAPI", "HemNetCore.WebAPI\HemNetCore.WebAPI.csproj", "{E38150F4-73A5-418C-A9F2-E26006D31168}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HemNetCore.Model", "HemNetCore.Model\HemNetCore.Model.csproj", "{1EE1E74C-D5E5-44BE-B797-3BE76042346B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HemNetCore.Common", "HemNetCore.Common\HemNetCore.Common.csproj", "{F2B1F5D2-2832-4D62-8E03-48469ABD9DF5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HemNetCore.Repository", "HemNetCore.Repository\HemNetCore.Repository.csproj", "{D6CF2CFC-3852-468F-BC6A-ACCD4BE1FE68}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HemNetCore.Service", "HemNetCore.Service\HemNetCore.Service.csproj", "{E579BFBB-9977-47EB-9C1C-FF9B131896B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HemNetCore.IService", "HemNetCore.IService\HemNetCore.IService.csproj", "{A676F797-5EF8-4816-87F2-229A76686971}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{EB9E43AA-867B-4D50-B6E0-AF7D058A4441}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E38150F4-73A5-418C-A9F2-E26006D31168}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E38150F4-73A5-418C-A9F2-E26006D31168}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E38150F4-73A5-418C-A9F2-E26006D31168}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E38150F4-73A5-418C-A9F2-E26006D31168}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1EE1E74C-D5E5-44BE-B797-3BE76042346B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EE1E74C-D5E5-44BE-B797-3BE76042346B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EE1E74C-D5E5-44BE-B797-3BE76042346B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EE1E74C-D5E5-44BE-B797-3BE76042346B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2B1F5D2-2832-4D62-8E03-48469ABD9DF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2B1F5D2-2832-4D62-8E03-48469ABD9DF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2B1F5D2-2832-4D62-8E03-48469ABD9DF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2B1F5D2-2832-4D62-8E03-48469ABD9DF5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CF2CFC-3852-468F-BC6A-ACCD4BE1FE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CF2CFC-3852-468F-BC6A-ACCD4BE1FE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CF2CFC-3852-468F-BC6A-ACCD4BE1FE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CF2CFC-3852-468F-BC6A-ACCD4BE1FE68}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E579BFBB-9977-47EB-9C1C-FF9B131896B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E579BFBB-9977-47EB-9C1C-FF9B131896B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E579BFBB-9977-47EB-9C1C-FF9B131896B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E579BFBB-9977-47EB-9C1C-FF9B131896B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A676F797-5EF8-4816-87F2-229A76686971}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A676F797-5EF8-4816-87F2-229A76686971}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A676F797-5EF8-4816-87F2-229A76686971}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A676F797-5EF8-4816-87F2-229A76686971}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B96F5FDD-5C32-4F24-A6CF-3862E2DA9E9E}
+	EndGlobalSection
+EndGlobal

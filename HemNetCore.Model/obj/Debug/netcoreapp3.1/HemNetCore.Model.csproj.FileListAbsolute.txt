@@ -1,0 +1,10 @@
+E:\项目\HemNetCore\HemNetCore.Model\bin\Debug\netcoreapp3.1\HemNetCore.Model.deps.json
+E:\项目\HemNetCore\HemNetCore.Model\bin\Debug\netcoreapp3.1\HemNetCore.Model.dll
+E:\项目\HemNetCore\HemNetCore.Model\bin\Debug\netcoreapp3.1\HemNetCore.Model.pdb
+E:\项目\HemNetCore\HemNetCore.Model\bin\Debug\netcoreapp3.1\HemNetCore.Model.xml
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.csprojAssemblyReference.cache
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.AssemblyInfoInputs.cache
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.AssemblyInfo.cs
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.csproj.CoreCompileInputs.cache
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.dll
+E:\项目\HemNetCore\HemNetCore.Model\obj\Debug\netcoreapp3.1\HemNetCore.Model.pdb

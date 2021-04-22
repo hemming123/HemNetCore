@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DocumentationFile>E:\项目\HemNetCore\HemNetCore.WebAPI\HemNetCore.WebAPI.xml</DocumentationFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\.editorconfig" Link=".editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.1.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\HemNetCore.Common\HemNetCore.Common.csproj" />
+    <ProjectReference Include="..\HemNetCore.IRepository\HemNetCore.IRepository.csproj" />
+    <ProjectReference Include="..\HemNetCore.Model\HemNetCore.Model.csproj" />
+    <ProjectReference Include="..\HemNetCore.Repository\HemNetCore.Repository.csproj" />
+    <ProjectReference Include="..\HemNetCore.Service\HemNetCore.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

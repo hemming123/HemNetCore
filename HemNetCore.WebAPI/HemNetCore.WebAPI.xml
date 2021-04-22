@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>HemNetCore.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:HemNetCore.WebAPI.Authorization.AuthorizationAttribute">
+            <summary>
+            登录验证过滤器
+            </summary>
+        </member>
+        <member name="P:HemNetCore.WebAPI.Authorization.AuthorizationAttribute.Permissions">
+            <summary>
+            权限标志
+            </summary>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Authorization.TokenAuthorizeFilter">
+            <summary>
+            Token身份证验证过滤器
+            </summary>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Controllers.AuthController">
+            <summary>
+            用户认证
+            </summary>
+        </member>
+        <member name="F:HemNetCore.WebAPI.Controllers.AuthController._sessionManager">
+            <summary>
+            回话接口
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.AuthController.VerifiyCode">
+            <summary>
+            获取验证码
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.AuthController.Login(HemNetCore.Model.Dto.LoginDto)">
+            <summary>
+            后台用户登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.AuthController.LogOut">
+            <summary>
+            退出登录
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Controllers.BaseController">
+            <summary>
+            自定义路由模版
+            用于解决swagger文档No operations defined in spec!问题
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.BaseController.ToResponseJson(System.Object)">
+            <summary>
+            返回统一JSON
+            </summary>
+            <param name="retsultModel"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Controllers.MemberController">
+            <summary>
+            会员管理
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.MemberController.QueryPage(HemNetCore.Model.Dto.MemberDto)">
+            <summary>
+            查询会员分页数据
+            </summary>
+            <param name="parm"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Controllers.UserController">
+            <summary>
+            用户管理
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Controllers.UserController.Hello(HemNetCore.Model.Enity.User)">
+            <summary>
+            Hello请求
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Extensions.SessionManager">
+            <summary>
+            用户会话管理
+            </summary>
+        </member>
+        <member name="F:HemNetCore.WebAPI.Extensions.SessionManager.memoryCache">
+            <summary>
+            缓存组件
+            </summary>
+        </member>
+        <member name="F:HemNetCore.WebAPI.Extensions.SessionManager.userService">
+            <summary>
+            用户接口
+            </summary>
+        </member>
+        <member name="F:HemNetCore.WebAPI.Extensions.SessionManager.accessor">
+            <summary>
+            HTTP上下文
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.Create(HemNetCore.Model.Enity.Kernel_User,System.Int32)">
+            <summary>
+            创建 Session
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.Update(System.String)">
+            <summary>
+            更新Session
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.Refresh(System.String)">
+            <summary>
+            刷新Session
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.Remove(System.String)">
+            <summary>
+            清除指定 Session
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.RemoveAll(System.String)">
+            <summary>
+            清除用户所有 Session
+            </summary>
+        </member>
+        <member name="P:HemNetCore.WebAPI.Extensions.SessionManager.SysToken">
+            <summary>
+            身份验证标识（Session）
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="P:HemNetCore.WebAPI.Extensions.SessionManager.CurrentUserSessionInfo">
+            <summary>
+            当前用户登录信息
+            </summary>
+        </member>
+        <member name="P:HemNetCore.WebAPI.Extensions.SessionManager.IsAuthenticated">
+            <summary>
+            是否通过身份验证
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.GetSession``1(System.String)">
+            <summary>
+            获取 Session 内容
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Extensions.SessionManager.GetSession``1(System.String,System.String)">
+            <summary>
+            获取 Session 内容
+            </summary>
+            <typeparam name="T"></typeparam>
+            <param name="session"></param>
+            <param name="key"></param>
+            <returns></returns>
+        </member>
+        <member name="T:HemNetCore.WebAPI.Middleware.CustomExceptionMiddleware">
+            <summary>
+            自定义消息返回过滤中间件
+            </summary>
+        </member>
+        <member name="T:HemNetCore.WebAPI.SetUp.SwaggerSetup">
+            <summary>
+            自定义用来注册Swagger文档类
+            </summary>
+        </member>
+        <member name="M:HemNetCore.WebAPI.SetUp.SwaggerSetup.AddSwaggerSetup(Microsoft.Extensions.DependencyInjection.IServiceCollection)">
+            <summary>
+            注册Swagger
+            </summary>
+            <param name="services"></param>
+        </member>
+        <member name="M:HemNetCore.WebAPI.Startup.Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder,Microsoft.AspNetCore.Hosting.IWebHostEnvironment)">
+             <summary>
+            运行时调用此方法。使用此方法配置HTTP请求管道。
+             </summary>
+             <param name="app"></param>
+             <param name="env"></param>
+        </member>
+    </members>
+</doc>

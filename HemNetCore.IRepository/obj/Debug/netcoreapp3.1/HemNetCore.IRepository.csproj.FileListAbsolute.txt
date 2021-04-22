@@ -1,0 +1,13 @@
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.IRepository.deps.json
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.IRepository.dll
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.IRepository.pdb
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.csprojAssemblyReference.cache
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.AssemblyInfoInputs.cache
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.AssemblyInfo.cs
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.csproj.CoreCompileInputs.cache
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.dll
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.pdb
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.Model.dll
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.Model.pdb
+E:\项目\HemNetCore\HemNetCore.IRepository\bin\Debug\netcoreapp3.1\HemNetCore.Model.xml
+E:\项目\HemNetCore\HemNetCore.IRepository\obj\Debug\netcoreapp3.1\HemNetCore.IRepository.csproj.CopyComplete
